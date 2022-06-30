@@ -29,17 +29,17 @@ console.log("Frage5" , istOrangenGroeserAlsAepfel);
 // Frage6//
 const mangosMalAepfel=mangos*aepfel;
 const mangosPlusOrangen= mangos+orangen;
-const istmangosMalAepfelGroeserAlsmangosPlusOrangen= mangosMalAepfel >= mangosPlusOrangen;
+const istmangosMalAepfelGroeserAlsmangosPlusOrangen= mangosMalAepfel > mangosPlusOrangen;
 console.log("Frage6" , istmangosMalAepfelGroeserAlsmangosPlusOrangen);
 
 // Frage7//
 const x = aepfel -mangos;
-const y = orangen/x;
-console.log("Frage7" ,mangos>=y)
+const y = orangen/mangos;
+console.log("Frage7" ,x<y)
 
 
 // Frage8//
-console.log("Frage8" , mangos === aepfel ===orangen);
+console.log("Frage8" , mangos === aepfel && mangos===orangen);
 
 
 //Frage9//
